@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "repl_python3_minesweeper"
+version = "0.1.0"
+description = ""
+authors = ["M4RZTI4N <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+termcolor = "^1.1.0"
+replit = "^3.2.4"
+getkey = "^0.6.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
